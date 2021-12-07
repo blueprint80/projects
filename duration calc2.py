@@ -1,6 +1,6 @@
 duration = int(input())
-dividers = [1, 60, 60, 24, 12, 100]
-names = ["мес.", "д.", "ч.", "мин.", "сек."]
+dividers = [1, 60, 60, 24, 10000]
+names = ["д.", "ч.", "мин.", "сек."]
 lst = []
 result = []
 for i in dividers:
